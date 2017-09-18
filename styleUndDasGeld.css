@@ -1,0 +1,18 @@
+h1.title_text {
+	color: black;
+	font-family: sans-serif;
+}
+
+span.title_text_web {
+	color: orange;
+	transition: color 0.5s;
+	transition-timing-function: ease-in-out;
+}
+
+span.title_text_a {
+	color: orange;
+}
+
+h1.title_text:hover > span.title_text_web {
+	color: blue;
+}
